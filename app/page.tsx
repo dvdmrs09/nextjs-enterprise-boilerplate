@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 import { Button } from "components/Button/Button"
-
+import Nav from "components/Nav/nav"
 
 export const metadata: Metadata = {
   title: "DMCS&T LLC",
@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 export default function Web() {
   return (
     <>
+    <section className="Nav"> </section>
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
